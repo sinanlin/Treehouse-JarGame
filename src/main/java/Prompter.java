@@ -8,7 +8,7 @@ public class Prompter {
 
     public void Play(){
 
-    System.out.print("Name of items in the jar:  ");
+    System.out.print("What type of item:  ");
     String item = scannString();
     System.out.print("Maximum number of" + item + " in the jar :  ");
     int number = scannInt();
